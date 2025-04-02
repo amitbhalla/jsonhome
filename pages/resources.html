@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Amit Bhalla | Marketing Strategist</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/pages/resources.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-bolt"></i> Amit Bhalla
+                </a>
+                <div class="nav-links">
+                    <a href="../index.html">HOME</a>
+                    <a href="services.html">SERVICES</a>
+                    <a href="resources.html" class="active">RESOURCES</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Free Marketing <span class="text-gradient">Resources</span></h1>
+            <p>Practical frameworks, templates, and tools to help you improve your marketing effectiveness</p>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section" id="resources">
+        <div class="container">
+            <div class="resources-intro">
+                <h2>Battle-Tested <span class="text-accent">Marketing Tools</span></h2>
+                <p>
+                    Access my collection of proven marketing frameworks, templates, and strategy playbooks that I've used to drive growth for industry-leading brands. No email required — just download and apply.
+                </p>
+            </div>
+            <div class="resources-grid">
+                <!-- Resources will be dynamically loaded from resources.json -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="resources-pagination-container">
+                <nav aria-label="Resources pagination">
+                    <ul class="pagination resources-pagination justify-content-center">
+                        <!-- Pagination will be dynamically generated -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="cta-shapes">
+            <div class="cta-shape cta-shape-1"></div>
+            <div class="cta-shape cta-shape-2"></div>
+        </div>
+        <div class="container cta-container">
+            <h2 class="cta-title">Need <span class="text-accent">Custom</span> Solutions?</h2>
+            <p class="cta-description">
+                While these resources provide a great starting point, every business has unique needs. Schedule a free strategy call to discuss your specific challenges.
+            </p>
+            <div class="cta-form">
+                <form action="#" method="POST" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company" class="form-label">Company</label>
+                        <input type="text" id="company" name="company" class="form-control" placeholder="Your company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="challenge" class="form-label">Your Biggest Marketing Challenge</label>
+                        <textarea id="challenge" name="challenge" class="form-control" placeholder="Tell me about your current marketing challenges..." required></textarea>
+                    </div>
+                    <div class="cta-buttons">
+                        <button type="submit" class="btn btn-secondary"><i class="fas fa-calendar-check mr-2" style="margin-right: 8px;"></i>Schedule My Free Strategy Call</button>
+                    </div>
+                </form>
+                <div class="cta-guarantee">
+                    <i class="fas fa-lock"></i>
+                    <span>Your information is secure and will never be shared with third parties</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column footer-brand">
+                    <h3><i class="fas fa-bolt"></i> Amit Bhalla</h3>
+                    <p>Marketing Strategist & Growth Consultant with nearly two decades of experience helping B2B companies maximize marketing ROI and accelerate growth.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/bhalla-amit/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Services</h3>
+                    <div class="footer-links">
+                        <a href="services.html#strategic-positioning">Strategic Brand Positioning</a>
+                        <a href="services.html#performance-marketing">Performance Marketing Optimization</a>
+                        <a href="services.html#gtm-strategy">Go-to-Market Strategy</a>
+                        <a href="services.html#employer-branding">Employer Branding</a>
+                        <a href="services.html#market-research">Market Research & Intelligence</a>
+                        <a href="services.html#career-coaching">Marketing Career Coaching</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Contact</h3>
+                    <div class="footer-contact">
+                        <i class="fas fa-envelope"></i>
+                        <div class="footer-contact-info">
+                            <strong>Email</strong>
+                            <a href="mailto:amit9815@gmail.com">amit9815@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact">
+                        <i class="fas fa-phone"></i>
+                        <div class="footer-contact-info">
+                            <strong>Phone</strong>
+                            <a href="tel:+919910776381">+91 9910776381</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="footer-contact-info">
+                            <strong>Location</strong>
+                            <span>India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    &copy; 2025 Amit Bhalla. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/pages/resources.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+[
+    {
+      "id": 1,
+      "title": "Growth Marketing Playbook",
+      "description": "A comprehensive 35-page guide to developing and executing a data-driven growth marketing strategy that consistently delivers results.",
+      "icon": "fas fa-chart-line",
+      "features": [
+        "Customer acquisition framework",
+        "Channel selection matrix",
+        "ROI measurement templates"
+      ],
+      "downloadLink": "/downloads/growth-marketing-playbook.pdf",
+      "content": "<p>This comprehensive playbook is designed to help B2B marketers implement a systematic approach to growth marketing that delivers measurable results. Inside, you'll find actionable frameworks, templates, and step-by-step instructions covering:</p><h3>Customer Acquisition Framework</h3><p>Learn how to identify your ideal customer profiles, map their journey, and create targeted acquisition strategies for each stage of the funnel.</p><h3>Channel Selection Matrix</h3><p>Discover which marketing channels are most effective for your specific business model, industry, and growth stage with our proprietary channel evaluation framework.</p><h3>ROI Measurement Templates</h3><p>Implement proven systems to track marketing performance, attribute revenue to specific channels, and continuously optimize your marketing spend.</p>"
+    },
+    {
+      "id": 2,
+      "title": "B2B Content Strategy Template",
+      "description": "The exact content planning framework I use with clients to create content that converts prospects at every stage of the buyer journey.",
+      "icon": "fas fa-bullhorn",
+      "features": [
+        "Funnel-aligned content maps",
+        "Topic research worksheet",
+        "Content performance metrics"
+      ],
+      "downloadLink": "/downloads/b2b-content-strategy-template.pdf",
+      "content": "<p>This template pack gives you everything you need to develop a content marketing strategy that generates qualified leads and nurtures them through your sales process. Inside, you'll find:</p><h3>Funnel-Aligned Content Maps</h3><p>Plan content that addresses specific buyer questions and objections at each stage of the decision-making process, from awareness to consideration to decision.</p><h3>Topic Research Worksheet</h3><p>Identify high-value content topics that balance search volume, relevance to your audience, and competitive opportunity.</p><h3>Content Performance Metrics</h3><p>Track the right KPIs for each piece of content based on its funnel position and strategic objective.</p>"
+    },
+    {
+      "id": 3,
+      "title": "Employer Branding Toolkit",
+      "description": "Everything you need to build an authentic employer brand that attracts top talent and reduces recruitment costs by up to 50%.",
+      "icon": "fas fa-users",
+      "features": [
+        "EVP development blueprint",
+        "Candidate persona template",
+        "Employer brand audit tools"
+      ],
+      "downloadLink": "/downloads/employer-branding-toolkit.pdf",
+      "content": "<p>This comprehensive toolkit helps HR and marketing leaders collaborate to build a powerful employer brand that attracts ideal candidates and reduces hiring costs. Inside, you'll find:</p><h3>EVP Development Blueprint</h3><p>Develop a compelling Employee Value Proposition that authentically communicates why top talent should join and stay with your company.</p><h3>Candidate Persona Template</h3><p>Create detailed personas for your ideal candidates, including their career motivations, information sources, and decision criteria.</p><h3>Employer Brand Audit Tools</h3><p>Assess your current employer brand strength and identify the highest-impact opportunities for improvement across all candidate touchpoints.</p>"
+    },
+    {
+      "id": 4,
+      "title": "Marketing Budget Optimizer",
+      "description": "An interactive spreadsheet tool that helps optimize your marketing budget allocation based on historical performance and business goals.",
+      "icon": "fas fa-file-invoice-dollar",
+      "features": [
+        "Budget allocation model",
+        "ROI comparison calculator",
+        "Channel performance tracker"
+      ],
+      "downloadLink": "/downloads/marketing-budget-optimizer.xlsx",
+      "content": "<p>This interactive Excel tool takes the guesswork out of marketing budget allocation, helping you make data-driven decisions that maximize returns. Inside, you'll find:</p><h3>Budget Allocation Model</h3><p>Input your total marketing budget and let our algorithm recommend optimal allocation across channels based on your goals and historical performance data.</p><h3>ROI Comparison Calculator</h3><p>Compare the projected returns from different budget scenarios to make informed decisions about where to increase or decrease spending.</p><h3>Channel Performance Tracker</h3><p>Monitor actual performance against projections and automatically adjust future recommendations based on real-world results.</p>"
+    },
+    {
+      "id": 5,
+      "title": "B2B Sales Enablement Kit",
+      "description": "Empower your sales team with the tools they need to effectively communicate your value proposition and close more deals.",
+      "icon": "fas fa-handshake",
+      "features": [
+        "Objection handling playbook",
+        "Competitive battlecards",
+        "Value proposition scripts"
+      ],
+      "downloadLink": "/downloads/sales-enablement-kit.pdf",
+      "content": "<p>Bridge the gap between marketing and sales with this comprehensive kit designed to equip your sales team with everything they need to convert leads into customers. Inside, you'll find:</p><h3>Objection Handling Playbook</h3><p>Prepare your sales team with proven responses to the most common objections they'll face during the sales process.</p><h3>Competitive Battlecards</h3><p>Equip your team with detailed comparisons between your solution and competitors, highlighting your unique advantages for different buyer scenarios.</p><h3>Value Proposition Scripts</h3><p>Provide ready-to-use messaging that clearly communicates your value to different buyer personas and industries.</p>"
+    },
+    {
+      "id": 6,
+      "title": "Marketing Analytics Dashboard",
+      "description": "A customizable dashboard template that helps you track and visualize your key marketing metrics in one centralized location.",
+      "icon": "fas fa-tachometer-alt",
+      "features": [
+        "KPI visualization templates",
+        "Multi-channel tracking",
+        "Executive reporting views"
+      ],
+      "downloadLink": "/downloads/marketing-analytics-dashboard.xlsx",
+      "content": "<p>Stop cobbling together reports from multiple platforms and start making decisions based on a unified view of your marketing performance. This Excel-based dashboard template includes:</p><h3>KPI Visualization Templates</h3><p>Instantly see how you're performing against key metrics with pre-built charts and graphs that make trends and patterns easy to spot.</p><h3>Multi-Channel Tracking</h3><p>Consolidate data from paid advertising, organic social, email, content marketing, and more into a single cohesive view.</p><h3>Executive Reporting Views</h3><p>Generate presentation-ready reports that highlight the metrics that matter most to leadership, with clear ROI calculations and business impact assessments.</p>"
+    }
+  ]

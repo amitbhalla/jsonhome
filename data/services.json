@@ -1,0 +1,80 @@
+[
+    {
+      "id": 1,
+      "title": "Strategic Brand Positioning",
+      "description": "Stand out in crowded markets with messaging that resonates with your ideal customers and creates meaningful differentiation from competitors.",
+      "icon": "fas fa-bullseye",
+      "points": [
+        "Competitor & market gap analysis",
+        "Value proposition refinement",
+        "Brand story & messaging framework"
+      ],
+      "link": "#contact",
+      "linkText": "Discuss your brand"
+    },
+    {
+      "id": 2,
+      "title": "Performance Marketing Optimization",
+      "description": "Transform your digital marketing from a cost center to a revenue engine with data-driven tactics that lower CAC and boost conversion rates.",
+      "icon": "fas fa-chart-bar",
+      "points": [
+        "Channel strategy & optimization",
+        "Conversion rate optimization",
+        "Attribution & analytics setup"
+      ],
+      "link": "#contact",
+      "linkText": "Improve your metrics"
+    },
+    {
+      "id": 3,
+      "title": "Go-to-Market Strategy",
+      "description": "Launch products, enter new markets, and scale revenue with comprehensive GTM plans that align product, marketing, and sales efforts.",
+      "icon": "fas fa-rocket",
+      "points": [
+        "Market sizing & segmentation",
+        "Channel & partnership strategy",
+        "Cross-functional execution planning"
+      ],
+      "link": "#contact",
+      "linkText": "Plan your market entry"
+    },
+    {
+      "id": 4,
+      "title": "Employer Branding",
+      "description": "Attract and retain top talent with compelling employer branding that showcases your culture and reduces recruiting costs.",
+      "icon": "fas fa-users",
+      "points": [
+        "Talent attraction framework",
+        "Candidate journey optimization",
+        "Employer value proposition development"
+      ],
+      "link": "#contact",
+      "linkText": "Build your talent brand"
+    },
+    {
+      "id": 5,
+      "title": "Market Research & Intelligence",
+      "description": "Make confident, data-backed decisions with actionable insights about your market, competitors, and customer preferences.",
+      "icon": "fas fa-search",
+      "points": [
+        "Competitive landscape analysis",
+        "Customer research & persona development",
+        "Market trend forecasting"
+      ],
+      "link": "#contact",
+      "linkText": "Gain market insights"
+    },
+    {
+      "id": 6,
+      "title": "Marketing Career Coaching",
+      "description": "Accelerate your marketing career with personalized guidance from someone who's navigated from entry-level to executive leadership.",
+      "icon": "fas fa-graduation-cap",
+      "points": [
+        "Career trajectory planning",
+        "Personal brand development",
+        "Leadership skill advancement"
+      ],
+      "link": "#contact",
+      "linkText": "Advance your career"
+    }
+  ]

@@ -25,7 +25,7 @@ function renderNavbar(data) {
                 </a>
                 <div class="nav-links">
                     ${data.menuItems.map(item => `
-                        <a href="${item.href}">${item.text}</a>
+                        <a href="${item.href}" class="nav-link">${item.text}</a>
                     `).join('')}
                     <a href="${data.ctaButton.href}" class="${data.ctaButton.className}" ${data.ctaButton.download ? 'download' : ''}>${data.ctaButton.text}</a>
                 </div>
@@ -51,6 +51,9 @@ function setupEventListeners() {
                 '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
         });
     }
+    
+    // Notify main.js that the navbar has loaded
+    document.dispatchEvent(new CustomEvent('navbarLoaded'));
 }
 
 // Load navbar on DOM content loaded

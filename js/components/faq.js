@@ -1,5 +1,5 @@
 // File: js/components/faq.js
-// FAQ section component functionality
+// Update this file with the new code
 
 // Fetch FAQ data and render
 async function loadFAQ() {
@@ -45,23 +45,37 @@ function renderFAQ(data) {
     faqContainer.innerHTML = faqHTML;
 }
 
-// Set up interactivity for FAQ accordion
+// Set up interactivity for FAQ accordion with smooth animation
 function setupFAQInteractivity() {
     const faqQuestions = document.querySelectorAll('.faq-question');
+    
+    // Initially set up the first item if it's active
+    const firstItem = document.querySelector('.faq-item.active');
+    if (firstItem) {
+        const answer = firstItem.querySelector('.faq-answer');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
     
     faqQuestions.forEach(question => {
         question.addEventListener('click', () => {
             const faqItem = question.parentElement;
+            const answer = faqItem.querySelector('.faq-answer');
             const isActive = faqItem.classList.contains('active');
             
             // Close all FAQ items
             document.querySelectorAll('.faq-item').forEach(item => {
                 item.classList.remove('active');
+                item.querySelector('.faq-answer').style.maxHeight = '0px';
             });
             
             // Toggle the clicked FAQ item
             if (!isActive) {
                 faqItem.classList.add('active');
+                
+                // Small timeout to ensure the CSS transition picks up the change
+                setTimeout(() => {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                }, 10);
             }
         });
     });

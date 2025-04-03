@@ -1,0 +1,21 @@
+{
+    "subtitle": "Free Marketing Resources",
+    "title": "Proven <span class=\"text-gradient\">Frameworks</span> & Strategies for Growth",
+    "description": "Access my collection of battle-tested marketing frameworks, templates, and strategy playbooks that I've used to drive growth for industry-leading brands. No email required — just download and apply.",
+    "ctaButtons": [
+      {
+        "text": "Explore Resources",
+        "href": "#resources-list-container",
+        "className": "btn btn-secondary"
+      },
+      {
+        "text": "Schedule a Strategy Call",
+        "href": "#contact-container",
+        "className": "btn btn-outline"
+      }
+    ],
+    "image": {
+      "src": "assets/images/resources-hero.jpg",
+      "alt": "Marketing Resources and Frameworks"
+    }
+  }

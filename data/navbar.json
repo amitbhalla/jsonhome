@@ -6,39 +6,15 @@
     "menuItems": [
       {
         "text": "Home",
-        "href": "#hero-container"
+        "href": "index.html"
       },
       {
-        "text": "OPPORTUNITY",
-        "href": "#pains-gains-container"
+        "text": "RESOURCES",
+        "href": "resources.html"
       },
       {
-        "text": "SOLUTIONS",
-        "href": "#solutions-container"
-      },
-      {
-        "text": "SERVICES",
-        "href": "#services-container"
-      },
-      {
-        "text": "APPROACH",
-        "href": "#approach-container"
-      },
-      {
-        "text": "RESULTS",
-        "href": "#success-stories-container"
-      },
-      {
-        "text": "TESTIMONIALS",
-        "href": "#testimonials-container"
-      },
-      {
-        "text": "FAQ",
-        "href": "#faq-container"
-      },
-      {
-        "text": "CONTACT",
-        "href": "#contact-container"
+        "text": "BLOG",
+        "href": "blog.html"
       }
     ],
     "ctaButton": {

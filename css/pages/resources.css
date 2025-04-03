@@ -1,0 +1,19 @@
+/* File: css/pages/resources.css */
+/* Resources page specific styles */
+
+/* This file is for any additional styles specific to the resources page */
+/* Most styles are handled by the component CSS files */
+
+/* Add a background pattern to the main container */
+.resources-list::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(var(--gray-light) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/* Add additional styling for resource-specific elements here */

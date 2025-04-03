@@ -1,0 +1,104 @@
+{
+    "sectionTitle": "Marketing Resources Library",
+    "description": "Browse and download my collection of proven templates, guides, and frameworks that have helped my clients achieve remarkable results.",
+    "categories": [
+      "All",
+      "Growth Marketing",
+      "Content Strategy",
+      "Brand Development",
+      "Analytics",
+      "Career Development"
+    ],
+    "resources": [
+      {
+        "id": "growth-marketing-playbook",
+        "title": "Growth Marketing Playbook",
+        "category": "Growth Marketing",
+        "shortDescription": "A comprehensive 35-page guide to developing and executing a data-driven growth marketing strategy that consistently delivers results.",
+        "longDescription": "This 35-page playbook provides a step-by-step framework for building and executing a data-driven growth marketing strategy. Based on my experience working with B2B companies at BCG and McKinsey, it includes practical templates, real-world examples, and actionable tactics that you can implement immediately.<br><br>The playbook covers customer acquisition frameworks, channel selection methodologies, and ROI measurement techniques that have helped my clients reduce CAC by up to 40% while scaling their marketing operations.<br><br>Perfect for marketing leaders looking to transform their approach from gut-based decision making to data-driven strategy.",
+        "image": "assets/images/resource-growth.jpg",
+        "downloadLink": "assets/resources/growth-marketing-playbook.pdf",
+        "features": [
+          "Customer acquisition framework",
+          "Channel selection matrix",
+          "ROI measurement templates"
+        ],
+        "tags": ["Growth", "Strategy", "ROI", "Acquisition"]
+      },
+      {
+        "id": "b2b-content-strategy",
+        "title": "B2B Content Strategy Template",
+        "category": "Content Strategy",
+        "shortDescription": "The exact content planning framework I use with clients to create content that converts prospects at every stage of the buyer journey.",
+        "longDescription": "This comprehensive content strategy template contains the exact framework I've used with B2B technology clients to plan, create, and optimize content that moves prospects through each stage of the buying journey.<br><br>The template includes customizable buyer persona worksheets, content mapping tools for each funnel stage, and performance tracking dashboards that help you measure and improve your content ROI.<br><br>Using this framework, one of my SaaS clients increased organic traffic by 215% and reduced sales cycle length by 22% by ensuring prospects received the right information at the right time.",
+        "image": "assets/images/resource-content.jpg",
+        "downloadLink": "assets/resources/b2b-content-strategy.pdf",
+        "features": [
+          "Funnel-aligned content maps",
+          "Topic research worksheet",
+          "Content performance metrics"
+        ],
+        "tags": ["Content", "Strategy", "B2B", "Conversion"]
+      },
+      {
+        "id": "employer-branding-toolkit",
+        "title": "Employer Branding Toolkit",
+        "category": "Brand Development",
+        "shortDescription": "Everything you need to build an authentic employer brand that attracts top talent and reduces recruitment costs by up to 50%.",
+        "longDescription": "Based on my experience as Head of Employer Brand for BCG in Asia Pacific, this toolkit provides all the resources you need to build a compelling employer brand that attracts and retains top talent.<br><br>The toolkit includes employer value proposition (EVP) development frameworks, candidate persona templates, employer brand audit tools, and customizable campaign planning documents.<br><br>Companies that have implemented these tools have seen qualified applications increase by up to 87%, recruiting costs decrease by 42%, and employee retention improve by 15-20%.",
+        "image": "assets/images/resource-employer.jpg",
+        "downloadLink": "assets/resources/employer-branding-toolkit.pdf",
+        "features": [
+          "EVP development blueprint",
+          "Candidate persona template",
+          "Employer brand audit tools"
+        ],
+        "tags": ["Employer Branding", "Talent", "Recruitment", "EVP"]
+      },
+      {
+        "id": "marketing-budget-optimizer",
+        "title": "Marketing Budget Optimizer",
+        "category": "Analytics",
+        "shortDescription": "An interactive spreadsheet tool that helps optimize your marketing budget allocation based on historical performance and business goals.",
+        "longDescription": "This interactive Excel tool helps marketing leaders make data-driven decisions about budget allocation across channels and campaigns. Built on principles I developed at McKinsey and BCG, it allows you to model different scenarios and predict outcomes before committing resources.<br><br>The spreadsheet includes pre-built formulas for calculating channel efficiency, predicting returns based on historical performance, and visualizing the optimal allocation of your marketing budget.<br><br>Marketing leaders who use this tool typically identify 15-30% efficiency improvements in their existing spend and gain confidence in their budget allocation decisions.",
+        "image": "assets/images/resource-budget.jpg",
+        "downloadLink": "assets/resources/marketing-budget-optimizer.xlsx",
+        "features": [
+          "Budget allocation model",
+          "ROI comparison calculator",
+          "Channel performance tracker"
+        ],
+        "tags": ["Budget", "Analytics", "ROI", "Planning"]
+      },
+      {
+        "id": "brand-positioning-framework",
+        "title": "Brand Positioning Framework",
+        "category": "Brand Development",
+        "shortDescription": "A step-by-step guide to developing a distinct brand positioning that resonates with your target audience and differentiates you from competitors.",
+        "longDescription": "This framework walks you through the process of developing a compelling brand positioning that truly differentiates your business in a crowded market. Based on methodologies I've refined over 15+ years, it helps you articulate your unique value proposition and create messaging that resonates deeply with your target audience.<br><br>The framework includes competitive analysis templates, positioning statement builders, and message testing protocols that ensure your brand strategy is both distinctive and authentic.<br><br>Companies that have used this framework have achieved 30-35% increases in brand recall and significantly improved their win rates against competitors.",
+        "image": "assets/images/resource-brand.jpg",
+        "downloadLink": "assets/resources/brand-positioning-framework.pdf",
+        "features": [
+          "Positioning statement template",
+          "Competitive differentiation matrix",
+          "Message resonance testing guide"
+        ],
+        "tags": ["Branding", "Positioning", "Messaging", "Strategy"]
+      },
+      {
+        "id": "marketing-career-roadmap",
+        "title": "Marketing Career Advancement Roadmap",
+        "category": "Career Development",
+        "shortDescription": "A comprehensive guide to accelerating your marketing career, from entry-level to CMO, with actionable strategies and development plans.",
+        "longDescription": "Having navigated from entry-level marketing roles to leadership positions at BCG and beyond, I've created this roadmap to help ambitious marketers accelerate their career growth. This guide includes skill development frameworks, personal brand building strategies, and leadership advancement tactics specific to marketing professionals.<br><br>The roadmap contains assessment tools to identify your current strengths and growth areas, development planning templates, and specific action items for each career stage from coordinator to CMO.<br><br>Marketers who have followed this framework have achieved promotions 40% faster than their peers and positioned themselves for long-term career success.",
+        "image": "assets/images/resource-career.jpg",
+        "downloadLink": "assets/resources/marketing-career-roadmap.pdf",
+        "features": [
+          "Skill assessment matrix",
+          "Personal brand development guide",
+          "Leadership advancement tactics"
+        ],
+        "tags": ["Career", "Development", "Leadership", "Skills"]
+      }
+    ]
+  }

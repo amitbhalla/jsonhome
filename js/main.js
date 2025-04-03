@@ -45,6 +45,28 @@ document.addEventListener('DOMContentLoaded', () => {
     if (footerCopyright) {
         footerCopyright.innerHTML = footerCopyright.innerHTML.replace(/\d{4}/, new Date().getFullYear());
     }
+    // Add scroll to top button to the body
+    const scrollButton = document.createElement('div');
+        scrollButton.className = 'scroll-to-top';
+        scrollButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
+        document.body.appendChild(scrollButton);
+
+    // Show/hide scroll button based on scroll position
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollButton.classList.add('visible');
+        } else {
+            scrollButton.classList.remove('visible');
+        }
+    });
+
+    // Scroll to top when button is clicked
+    scrollButton.addEventListener('click', () => {
+        window.scrollTo({
+                top: 0,
+            behavior: 'smooth'
+        });
+    });
 });
 
 // Function to set up smooth scrolling for all anchor links

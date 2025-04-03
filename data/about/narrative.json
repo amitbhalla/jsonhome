@@ -1,0 +1,39 @@
+{
+    "sectionTag": "My Approach",
+    "title": "The <span class=\"text-gradient\">Philosophy</span> Behind My Work",
+    "description": "I believe marketing should be a revenue generator, not a cost center. My approach is built on a foundation of data-driven decisions, strategic thinking, and relentless execution.",
+    "narrative": [
+      {
+        "title": "The Consulting Advantage",
+        "content": "My years at BCG and McKinsey weren't just about building PowerPoint decks. I learned a methodical approach to problem-solving that I bring to every marketing challenge: define the problem clearly, analyze the data rigorously, identify the highest-impact opportunities, and execute with precision. This analytical rigor is what sets my approach apart in a field often driven by gut feeling rather than evidence.",
+        "icon": "fas fa-chart-pie",
+        "color": "primary"
+      },
+      {
+        "title": "The Marketing-Sales Connection",
+        "content": "Too often, marketing operates in a silo, disconnected from sales outcomes. I've spent my career bridging this gap, ensuring that marketing activities directly feed the sales pipeline. By aligning marketing metrics with revenue objectives, we create accountability and focus that drives real business results. Every marketing dollar should be an investment with a measurable return.",
+        "icon": "fas fa-handshake",
+        "color": "secondary"
+      },
+      {
+        "title": "The Balance of Art and Science",
+        "content": "Effective marketing requires both creativity and analytical thinking. I bring both to the table. The art of crafting compelling narratives and engaging experiences is essential, but it must be guided by the science of data analysis and performance measurement. This balance ensures we create marketing that not only resonates emotionally but also delivers measurable business impact.",
+        "icon": "fas fa-balance-scale",
+        "color": "accent"
+      },
+      {
+        "title": "The Focus on Continuous Improvement",
+        "content": "Marketing is never 'done.' I approach every initiative with a growth mindset, constantly testing, learning, and refining. This iterative approach allows us to quickly identify what's working, double down on successful tactics, and pivot away from underperforming strategies. The result is a marketing program that becomes more effective and efficient over time.",
+        "icon": "fas fa-sync-alt",
+        "color": "success"
+      }
+    ],
+    "personalNote": {
+      "title": "Beyond Marketing",
+      "content": "When I'm not transforming marketing strategies, you might find me exploring the outdoors, reading about behavioral economics, or mentoring young marketing professionals. I believe that broadening our perspectives outside of work makes us better marketers and better people. I bring this holistic approach to my client relationships, recognizing that the best work happens when we connect as humans first.",
+      "image": {
+        "src": "assets/images/amit-casual.jpeg",
+        "alt": "Amit Bhalla outside of work"
+      }
+    }
+  }

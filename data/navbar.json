@@ -15,6 +15,10 @@
       {
         "text": "BLOG",
         "href": "blog.html"
+      },
+      {
+        "text": "ABOUT",
+        "href": "about.html"
       }
     ],
     "ctaButton": {

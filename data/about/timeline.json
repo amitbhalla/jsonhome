@@ -1,0 +1,122 @@
+{
+    "sectionTag": "Career Journey",
+    "title": "My Professional <span class=\"text-gradient\">Evolution</span>",
+    "description": "From my early days in marketing to leadership roles at global consulting firms, my career has been guided by a passion for data-driven marketing and measurable business impact.",
+    "milestones": [
+      {
+        "year": "2024",
+        "title": "Vice President - Strategy & Marketing",
+        "company": "Mynd Integrated Solutions",
+        "duration": "August 2024 – Present",
+        "description": "Leading Marketing and Strategy functions including Market Research, Insights, Performance Marketing, Employer Branding and Sales Operations. Rebuilding the digital identity and helping business lines build growth roadmaps for the next 3 years.",
+        "achievements": [
+          "Part of the CEO's office directly impacting company strategy",
+          "Building roadmap to pave way for external investments (IPO readiness)",
+          "Providing market insights, feature roadmap, TAM/SAM and Sales Pitch Refinement"
+        ],
+        "icon": "fas fa-chart-line"
+      },
+      {
+        "year": "2024",
+        "title": "Marketing Director",
+        "company": "Boston Consulting Group (BCG)",
+        "duration": "January 2024 – August 2024",
+        "description": "Led Employer Branding for BCG in Asia Pacific, managing a team of 10 marketers across 12 countries to deliver on BCG's talent strategy & DEI agenda via digital & social channels.",
+        "achievements": [
+          "Developed BCG's talent attraction framework in Asia Pacific",
+          "Co-developed BCG's recruiting campaign 'Beyond is where we begin'",
+          "Reduced recruiting costs and time to hire while improving engagement rates"
+        ],
+        "icon": "fas fa-users"
+      },
+      {
+        "year": "2022",
+        "title": "Senior Marketing Manager",
+        "company": "Boston Consulting Group (BCG)",
+        "duration": "November 2022 – December 2023",
+        "description": "Created the marketing and employer branding strategy for 12 countries in Asia Pacific. Built a team of 10 people to execute the strategy.",
+        "achievements": [
+          "First person to join and establish the employer branding function",
+          "Took over all social media and digital platforms (LinkedIn, Meta, careers website, job boards)",
+          "Focused on enhancing brand value, reducing hiring costs and building candidate pipelines"
+        ],
+        "icon": "fas fa-bullhorn"
+      },
+      {
+        "year": "2019",
+        "title": "Product Marketing Manager",
+        "company": "Boston Consulting Group (BCG)",
+        "duration": "January 2019 – October 2022",
+        "description": "Developed and executed product marketing strategies for BCG B2B solutions (Lighthouse, KEY, OrgBuilder), contributing to product adoption and revenue growth.",
+        "achievements": [
+          "Spearheaded the launch of two B2B products with targeted go-to-market strategies",
+          "Managed end-to-end marketing campaigns from research to content creation",
+          "Leveraged data analytics to track and optimize marketing performance"
+        ],
+        "icon": "fas fa-boxes"
+      },
+      {
+        "year": "2014",
+        "title": "Marketing Lead",
+        "company": "Boston Consulting Group (BCG)",
+        "duration": "May 2014 – December 2018",
+        "description": "Led comprehensive communication and PR strategies to enhance BCG's brand reputation and visibility in the B2B sector.",
+        "achievements": [
+          "Managed media relations securing coverage in top-tier industry publications",
+          "Developed crisis communication plans and effectively mitigated negative publicity",
+          "Created thought leadership content positioning BCG as a leader in consulting"
+        ],
+        "icon": "fas fa-comments"
+      },
+      {
+        "year": "2012",
+        "title": "Senior Analyst",
+        "company": "McKinsey & Company",
+        "duration": "July 2012 – April 2014",
+        "description": "Worked on Product Marketing and management for the Digital Benchmarking Solution (McKBench).",
+        "achievements": [
+          "Executed comprehensive marketing and sales strategy for the platform",
+          "Managed brand identity across all channels and touchpoints",
+          "Communicated platform value effectively to stakeholders"
+        ],
+        "icon": "fas fa-analytics"
+      },
+      {
+        "year": "2009",
+        "title": "Analyst",
+        "company": "McKinsey & Company",
+        "duration": "July 2009 – June 2012",
+        "description": "Part of the Data Analytics team, creating analytical models for McKinsey's case teams using Excel, Macros, PowerPoint, SQL, and other technologies.",
+        "achievements": [
+          "Supported consulting teams with data analysis and visualization",
+          "Developed robust models for client business cases",
+          "Translated complex data insights into actionable recommendations"
+        ],
+        "icon": "fas fa-database"
+      },
+      {
+        "year": "2008",
+        "title": "Junior Analyst",
+        "company": "McKinsey & Company",
+        "duration": "October 2008 – June 2009",
+        "description": "Worked on the Data Analytics team, creating analytical models for McKinsey's case teams.",
+        "icon": "fas fa-laptop-code"
+      },
+      {
+        "year": "2007",
+        "title": "MIS Executive",
+        "company": "HCLTech",
+        "duration": "January 2007 – September 2008",
+        "description": "Responsible for client reporting on call data, building business reports that supported decision-making, capturing metrics such as AHT and FCR using Excel and VBA.",
+        "icon": "fas fa-file-excel"
+      },
+      {
+        "year": "2003",
+        "title": "Marketing Executive",
+        "company": "SBI MUTUAL FUND",
+        "duration": "April 2003 – March 2005",
+        "description": "Set up the office of SBI Mutual Funds in Shimla from the ground up. Built a network of local agents to sell Mutual Funds and leveraged the bank's network to bring in corporate customers.",
+        "icon": "fas fa-coins"
+      }
+    ]
+  }

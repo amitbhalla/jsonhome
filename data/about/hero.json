@@ -1,0 +1,39 @@
+{
+    "subtitle": "My Journey & Philosophy",
+    "title": "Hey there, I'm <span class=\"text-gradient\">Amit Bhalla</span>",
+    "description": "For nearly two decades, I've been at the intersection of strategy and execution, helping B2B companies transform their marketing from cost centers to growth engines. My approach combines rigorous analytical thinking from my time at BCG and McKinsey with practical, results-focused implementation.",
+    "ctaButtons": [
+      {
+        "text": "View My Career Journey",
+        "href": "#timeline-container",
+        "className": "btn btn-secondary"
+      },
+      {
+        "text": "Download Resume",
+        "href": "assets/docs/Resume_AmitBhalla.pdf",
+        "className": "btn btn-outline",
+        "download": true
+      }
+    ],
+    "image": {
+      "src": "assets/images/amit-about.jpeg",
+      "alt": "Amit Bhalla - Marketing Strategist"
+    },
+    "stats": [
+      {
+        "value": "20",
+        "suffix": "+",
+        "description": "Years of Experience"
+      },
+      {
+        "value": "12",
+        "suffix": "+",
+        "description": "Industries Served"
+      },
+      {
+        "value": "100",
+        "suffix": "+",
+        "description": "Brands Transformed"
+      }
+    ]
+  }

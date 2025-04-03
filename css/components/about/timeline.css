@@ -1,0 +1,216 @@
+/* File: css/components/about/timeline.css */
+/* Timeline section component styles */
+
+.timeline {
+    background: var(--light);
+    position: relative;
+    padding: 7rem 0;
+    overflow: hidden;
+}
+
+.timeline-header {
+    max-width: 800px;
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+
+.timeline-header p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: var(--primary);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+    border-radius: 4px;
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 0 3rem 3rem;
+    box-sizing: border-box;
+}
+
+.timeline-item.left {
+    left: 0;
+}
+
+.timeline-item.right {
+    left: 50%;
+}
+
+.timeline-badge {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 0 10px 25px -10px rgba(37, 99, 235, 0.5);
+    z-index: 10;
+    top: 0;
+}
+
+.timeline-item.left .timeline-badge {
+    right: -25px;
+}
+
+.timeline-item.right .timeline-badge {
+    left: -25px;
+}
+
+.timeline-content {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 15px 35px -15px rgba(15, 23, 42, 0.15);
+    border: 1px solid rgba(228, 228, 231, 0.8);
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 50px -15px rgba(15, 23, 42, 0.2);
+    border-color: rgba(37, 99, 235, 0.3);
+}
+
+.timeline-year {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--primary);
+    border-radius: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.timeline-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+}
+
+.timeline-company {
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 0.25rem;
+}
+
+.timeline-duration {
+    font-size: 0.9rem;
+    color: var(--gray);
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.timeline-description {
+    margin-bottom: 1.5rem;
+    color: var(--gray);
+}
+
+.timeline-achievements h4 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--dark);
+}
+
+.timeline-achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-achievements li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--gray);
+}
+
+.timeline-achievements li i {
+    color: var(--success);
+    margin-top: 0.25rem;
+}
+
+/* Arrow pointers */
+.timeline-item.left .timeline-content:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(45deg);
+    border-right: 1px solid rgba(228, 228, 231, 0.8);
+    border-top: 1px solid rgba(228, 228, 231, 0.8);
+}
+
+.timeline-item.right .timeline-content:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(45deg);
+    border-left: 1px solid rgba(228, 228, 231, 0.8);
+    border-bottom: 1px solid rgba(228, 228, 231, 0.8);
+}
+
+@media screen and (max-width: 992px) {
+    .timeline-wrapper::before {
+        left: 31px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 0;
+    }
+    
+    .timeline-item.right {
+        left: 0;
+    }
+    
+    .timeline-item.left .timeline-badge,
+    .timeline-item.right .timeline-badge {
+        left: 6px;
+    }
+    
+    .timeline-item.left .timeline-content:after {
+        left: -10px;
+        right: auto;
+        border-right: none;
+        border-top: none;
+        border-left: 1px solid rgba(228, 228, 231, 0.8);
+        border-bottom: 1px solid rgba(228, 228, 231, 0.8);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .timeline-content {
+        padding: 1.5rem;
+    }
+}

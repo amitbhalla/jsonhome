@@ -1,0 +1,76 @@
+/* File: css/pages/blog.css */
+/* Main stylesheet for the blog page */
+
+/* Blog page specific styles */
+.blog-page {
+    background-color: var(--light);
+}
+
+/* Utility classes specific to the blog page */
+.tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(37, 99, 235, 0.1);
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.tag:hover {
+    background-color: rgba(37, 99, 235, 0.2);
+}
+
+.date {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--gray);
+    margin-bottom: 0.75rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.author-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--gray-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--dark);
+}
+
+.author-title {
+    font-size: 0.75rem;
+    color: var(--gray);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.5rem;
+    }
+}

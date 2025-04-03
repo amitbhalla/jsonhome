@@ -1,0 +1,31 @@
+{
+    "sectionTag": "My Approach",
+    "title": "A Proven Process That <span class=\"text-gradient\">Gets Results</span>",
+    "description": "My methodology combines the analytical rigor of top consulting firms with practical execution experience. This systematic approach ensures we deliver measurable improvements, not just theoretical strategies.",
+    "steps": [
+      {
+        "number": "1",
+        "icon": "fas fa-search",
+        "title": "Diagnostic & Discovery",
+        "description": "We start by analyzing your current marketing performance, identifying gaps, and uncovering the highest-impact opportunities for growth. This includes a comprehensive audit of channels, messaging, and competitive position."
+      },
+      {
+        "number": "2",
+        "icon": "fas fa-lightbulb",
+        "title": "Strategy Development",
+        "description": "Based on insights from our discovery phase, I'll create a data-backed marketing strategy tailored to your specific business goals, target audience, and competitive landscape. Every recommendation is tied to measurable outcomes."
+      },
+      {
+        "number": "3",
+        "icon": "fas fa-map",
+        "title": "Execution Roadmap",
+        "description": "I'll develop a detailed action plan with clear timelines, responsibilities, and KPIs to ensure flawless implementation across all relevant channels and touchpoints. This includes both quick wins and strategic initiatives."
+      },
+      {
+        "number": "4",
+        "icon": "fas fa-code",
+        "title": "Implementation Support",
+        "description": "I provide hands-on guidance during the execution phase, working closely with your team to ensure all elements of our strategy are implemented effectively and overcome any challenges that arise."
+      }
+    ]
+  }

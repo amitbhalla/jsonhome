@@ -1,0 +1,77 @@
+{
+    "sectionTag": "Client Success Stories",
+    "title": "Real <span class=\"text-gradient\">Results</span> for Real Businesses",
+    "description": "My strategies don't just sound good—they deliver measurable outcomes that impact your bottom line. Here's what my clients have achieved.",
+    "metrics": [
+      {
+        "value": "35",
+        "symbol": "%",
+        "label": "Brand Recall"
+      },
+      {
+        "value": "30",
+        "symbol": "%",
+        "label": "Pipeline Growth"
+      },
+      {
+        "value": "50",
+        "symbol": "%",
+        "label": "CAC Reduction"
+      },
+      {
+        "value": "20",
+        "symbol": "%",
+        "label": "Talent Retention"
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "SaaS Growth Acceleration",
+        "problem": "B2B SaaS company struggled with high CAC and slow pipeline velocity despite solid product-market fit. Growth had plateaued after initial traction.",
+        "impacts": [
+          "Reduced customer acquisition cost by 37% within 90 days",
+          "Increased conversion rate from MQL to SQL by 52%"
+        ],
+        "link": {
+          "text": "View Full Case Study",
+          "href": "#"
+        }
+      },
+      {
+        "title": "B2B Lead Generation Strategy",
+        "problem": "Professional services firm with inconsistent lead quality and excessive reliance on referrals. Marketing efforts were disconnected from sales outcomes.",
+        "impacts": [
+          "Created 215% increase in qualified opportunities",
+          "Shortened sales cycle by 32% through better lead qualification"
+        ],
+        "link": {
+          "text": "View Full Case Study",
+          "href": "#"
+        }
+      },
+      {
+        "title": "Market Expansion Strategy",
+        "problem": "Tech company seeking expansion into new geographic markets without clear positioning or customer segmentation. Previous attempts had yielded poor ROI.",
+        "impacts": [
+          "Achieved 124% of first-year revenue targets in new market",
+          "Established category leadership position in 9 months"
+        ],
+        "link": {
+          "text": "View Full Case Study",
+          "href": "#"
+        }
+      },
+      {
+        "title": "Employer Branding Campaign",
+        "problem": "Fast-growing company struggling with talent acquisition in competitive industry. High recruitment costs and extended time-to-fill for critical positions.",
+        "impacts": [
+          "Reduced recruitment advertising spend by 42%",
+          "Increased qualified applicants by 87% for senior roles"
+        ],
+        "link": {
+          "text": "View Full Case Study",
+          "href": "#"
+        }
+      }
+    ]
+  }

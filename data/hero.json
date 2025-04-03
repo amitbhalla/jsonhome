@@ -1,0 +1,21 @@
+{
+    "subtitle": "Marketing Strategist & Growth Catalyst",
+    "title": "Your Marketing Isn't Working.<br>I'll <span class=\"text-gradient\">Fix That</span>.",
+    "description": "You've tried everything—paid ads, content marketing, social media—but your CAC keeps rising while conversion rates plateau. I help B2B companies transform their marketing from a cost center to a revenue-generating machine.",
+    "ctaButtons": [
+      {
+        "text": "Schedule Your Free Strategy Call",
+        "href": "#contact-container",
+        "className": "btn btn-secondary"
+      },
+      {
+        "text": "See How I Can Help You",
+        "href": "#pains-gains-container",
+        "className": "btn btn-outline"
+      }
+    ],
+    "image": {
+      "src": "assets/images/amit.jpeg",
+      "alt": "Amit Bhalla - Marketing Architect"
+    }
+  }

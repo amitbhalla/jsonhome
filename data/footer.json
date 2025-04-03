@@ -1,0 +1,66 @@
+{
+    "branding": {
+      "name": "Amit Bhalla",
+      "icon": "fas fa-bolt",
+      "description": "Marketing Strategist & Growth Consultant with nearly two decades of experience helping B2B companies maximize marketing ROI and accelerate growth."
+    },
+    "social": [
+      {
+        "icon": "fab fa-linkedin-in",
+        "url": "https://www.linkedin.com/in/bhalla-amit/",
+        "title": "LinkedIn"
+      },
+      {
+        "icon": "fab fa-twitter",
+        "url": "#",
+        "title": "Twitter"
+      },
+      {
+        "icon": "fab fa-instagram",
+        "url": "#",
+        "title": "Instagram"
+      }
+    ],
+    "links": {
+      "title": "Services",
+      "items": [
+        {
+          "text": "Strategic Brand Positioning",
+          "url": "#services-container"
+        },
+        {
+          "text": "Performance Marketing Optimization",
+          "url": "#services-container"
+        },
+        {
+          "text": "Go-to-Market Strategy",
+          "url": "#services-container"
+        },
+        {
+          "text": "Employer Branding",
+          "url": "#services-container"
+        },
+        {
+          "text": "Market Research & Intelligence",
+          "url": "#services-container"
+        },
+        {
+          "text": "Marketing Career Coaching",
+          "url": "#services-container"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "email": {
+        "text": "amit9815@gmail.com",
+        "url": "mailto:amit9815@gmail.com"
+      },
+      "phone": {
+        "text": "+91 9910776381",
+        "url": "tel:+919910776381"
+      },
+      "location": "India"
+    },
+    "copyright": "© 2025 Amit Bhalla. All rights reserved."
+  }

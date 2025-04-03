@@ -1,28 +1,58 @@
 #!/bin/bash
 
-# Create root directory
-mkdir -p amit-bhalla-website
-
 # Create main directories
-cd amit-bhalla-website
-mkdir -p pages css/pages js/pages data images/blog images/resources images/icons
+mkdir -p css/components
+mkdir -p js/components
+mkdir -p data
+mkdir -p assets/images
+mkdir -p assets/icons
+mkdir -p assets/docs
 
-# Create HTML files
+# Create HTML file
 touch index.html
-touch pages/services.html pages/blog.html pages/blog-post.html pages/resources.html pages/resource.html pages/about.html pages/contact.html
 
 # Create CSS files
-touch css/main.css css/header.css css/footer.css
-touch css/pages/home.css css/pages/services.css css/pages/blog.css css/pages/resources.css css/pages/about.css css/pages/contact.css
+touch css/style.css
+touch css/components/navbar.css
+touch css/components/hero.css
+touch css/components/pains-gains.css
+touch css/components/solutions.css
+touch css/components/services.css
+touch css/components/approach.css
+touch css/components/success-stories.css
+touch css/components/testimonials.css
+touch css/components/faq.css
+touch css/components/contact.css
+touch css/components/footer.css
 
-# Create JavaScript files
-touch js/main.js js/navigation.js js/animations.js js/faq.js
-touch js/pages/blog.js js/pages/resources.js
+# Create JS files
+touch js/main.js
+touch js/components/navbar.js
+touch js/components/hero.js
+touch js/components/pains-gains.js
+touch js/components/solutions.js
+touch js/components/services.js
+touch js/components/approach.js
+touch js/components/success-stories.js
+touch js/components/testimonials.js
+touch js/components/faq.js
+touch js/components/contact.js
+touch js/components/footer.js
 
 # Create JSON data files
-touch data/services.json data/testimonials.json data/faqs.json data/resources.json data/stats.json data/blog-posts.json data/case-studies.json data/profile.json
+touch data/navbar.json
+touch data/hero.json
+touch data/pains-gains.json
+touch data/solutions.json
+touch data/services.json
+touch data/approach.json
+touch data/success-stories.json
+touch data/testimonials.json
+touch data/faq.json
+touch data/contact.json
+touch data/footer.json
 
-# Create a placeholder for images
-touch images/placeholder.txt
+# Copy resume to assets
+echo "Please copy your Resume_AmitBhalla.pdf to the assets/docs directory"
 
 echo "Project structure created successfully!"

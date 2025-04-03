@@ -1,0 +1,37 @@
+{
+    "sectionTag": "The Challenges You Face",
+    "title": "I Solve the <span class=\"text-accent\">Marketing Headaches</span> Keeping You Up at Night",
+    "description": "As a B2B leader, you're facing intense pressure to deliver growth with shrinking resources. I've worked with dozens of companies facing these exact challenges—and transformed their marketing performance.",
+    "problems": [
+      {
+        "icon": "fas fa-money-bill-wave",
+        "title": "Escalating Customer Acquisition Costs",
+        "description": "Your CAC is rising each quarter while marketing ROI falls. Every dollar spent seems to yield diminishing returns, putting pressure on your margins and growth targets.",
+        "points": [
+          "Paid channels becoming more expensive",
+          "Conversion rates declining",
+          "Marketing spend increasing without proportional results"
+        ]
+      },
+      {
+        "icon": "fas fa-chart-line",
+        "title": "Stagnant Sales Pipeline",
+        "description": "Despite all your marketing efforts, your sales pipeline velocity isn't improving. Deals take too long to close, and your sales team complains about lead quality.",
+        "points": [
+          "Too many unqualified leads",
+          "Long, unpredictable sales cycles",
+          "Difficulty scaling outbound efforts"
+        ]
+      },
+      {
+        "icon": "fas fa-bullhorn",
+        "title": "Weak Brand Recognition",
+        "description": "In a crowded market, your company struggles to stand out. Prospects don't recognize your brand, and you're constantly fighting to differentiate from competitors.",
+        "points": [
+          "Competitors winning deals despite inferior products",
+          "Low engagement with brand content",
+          "Difficulty articulating unique value proposition"
+        ]
+      }
+    ]
+  }

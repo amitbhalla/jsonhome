@@ -1,26 +1,39 @@
-[
-    {
-      "id": 1,
-      "name": "Sarah Johnson",
-      "position": "CEO, Enterprise SaaS Company",
-      "content": "Within six months of implementing Amit's strategy, we experienced a 40% increase in qualified leads and reduced our customer acquisition costs by 25%. His data-driven approach transformed how we think about marketing ROI. The most impressive part? He didn't just give us a strategy—he helped us implement it successfully."
-    },
-    {
-      "id": 2,
-      "name": "Michael Chen",
-      "position": "CMO, Technology Solutions Provider",
-      "content": "We were struggling with our brand positioning in a crowded market. Amit helped us develop a unique narrative that resonated with our target audience. The result? Our inbound inquiries increased by 65%, and prospects were coming in much more educated about our value proposition. Our sales cycle shortened by 30%."
-    },
-    {
-      "id": 3,
-      "name": "Priya Sharma",
-      "position": "Head of HR, Global Consulting Firm",
-      "content": "After implementing Amit's employer branding recommendations, we saw applications from qualified candidates increase by 80%, and our employee retention improved by 22%. His strategic approach to talent marketing delivered ROI far beyond our expectations, saving us millions in recruiting and onboarding costs."
-    },
-    {
-      "id": 4,
-      "name": "David Wilson",
-      "position": "Founder, Tech Startup",
-      "content": "Amit's guidance was transformative for our go-to-market strategy. His framework helped us identify the right customer segments and messaging, resulting in a 95% improvement in conversion rates. What sets him apart is his ability to combine strategic thinking with practical implementation plans."
-    }
-  ]
+{
+    "sectionTag": "What Clients Say",
+    "title": "Success Stories From <span class=\"text-gradient\">Industry Leaders</span>",
+    "description": "I've had the privilege of working with forward-thinking executives and marketing leaders across various industries. Here's what they have to say about our collaboration.",
+    "testimonials": [
+      {
+        "content": "Within six months of implementing Amit's strategy, we experienced a 40% increase in qualified leads and reduced our customer acquisition costs by 25%. His data-driven approach transformed how we think about marketing ROI. The most impressive part? He didn't just give us a strategy—he helped us implement it successfully.",
+        "author": {
+          "name": "Sarah Johnson",
+          "title": "CEO, Enterprise SaaS Company",
+          "avatar": "user-circle"
+        }
+      },
+      {
+        "content": "We were struggling with our brand positioning in a crowded market. Amit helped us develop a unique narrative that resonated with our target audience. The result? Our inbound inquiries increased by 65%, and prospects were coming in much more educated about our value proposition. Our sales cycle shortened by 30%.",
+        "author": {
+          "name": "Michael Chen",
+          "title": "CMO, Technology Solutions Provider",
+          "avatar": "user-circle"
+        }
+      },
+      {
+        "content": "After implementing Amit's employer branding recommendations, we saw applications from qualified candidates increase by 80%, and our employee retention improved by 22%. His strategic approach to talent marketing delivered ROI far beyond our expectations, saving us millions in recruiting and onboarding costs.",
+        "author": {
+          "name": "Priya Sharma",
+          "title": "Head of HR, Global Consulting Firm",
+          "avatar": "user-circle"
+        }
+      },
+      {
+        "content": "Our marketing was all over the place before we worked with Amit. He helped us focus our efforts on high-impact channels and create messaging that truly resonated with our ideal clients. Within three months, we saw our conversion rates double and our cost per acquisition drop by 40%. His strategic guidance has been invaluable.",
+        "author": {
+          "name": "David Wilson",
+          "title": "Founder, B2B SaaS Startup",
+          "avatar": "user-circle"
+        }
+      }
+    ]
+  }

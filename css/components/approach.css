@@ -1,0 +1,101 @@
+/* File: css/components/approach.css */
+/* Approach section component styles */
+
+.process {
+    background: var(--darker);
+    color: var(--light);
+    position: relative;
+    overflow: hidden;
+}
+
+.process::before {
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
+    top: -300px;
+    right: -200px;
+    z-index: 0;
+}
+
+.process-container {
+    position: relative;
+    z-index: 1;
+}
+
+.process-header {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.process-header p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process .text-gradient {
+    color: var(--light);
+    font-weight: 700;
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.process-step {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 1.5rem;
+    padding: 3rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    height: 100%;
+}
+
+.step-number {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 6rem;
+    font-weight: 800;
+    opacity: 0.2;
+    line-height: 1;
+    font-family: var(--font-primary);
+}
+
+.step-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.step-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.step-description {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .process-step {
+        padding: 2rem;
+    }
+}

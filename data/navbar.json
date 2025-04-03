@@ -1,0 +1,38 @@
+{
+    "logo": {
+      "text": "Amit Bhalla",
+      "icon": "fas fa-bolt"
+    },
+    "menuItems": [
+      {
+        "text": "SERVICES",
+        "href": "#services-container"
+      },
+      {
+        "text": "APPROACH",
+        "href": "#approach-container"
+      },
+      {
+        "text": "RESULTS",
+        "href": "#success-stories-container"
+      },
+      {
+        "text": "TESTIMONIALS",
+        "href": "#testimonials-container"
+      },
+      {
+        "text": "FAQ",
+        "href": "#faq-container"
+      },
+      {
+        "text": "CONTACT",
+        "href": "#contact-container"
+      }
+    ],
+    "ctaButton": {
+      "text": "Download Resume",
+      "href": "assets/docs/Resume_AmitBhalla.pdf",
+      "className": "btn btn-secondary",
+      "download": true
+    }
+  }

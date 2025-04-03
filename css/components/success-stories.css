@@ -1,0 +1,281 @@
+/* File: css/components/success-stories.css */
+/* Success Stories section component styles */
+
+.results {
+    background: var(--light);
+    position: relative;
+    overflow: hidden;
+    padding: 7rem 0;
+}
+
+/* Blob styling for results section */
+.blob-results-1 {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    top: -200px;
+    right: -200px;
+    z-index: 0;
+    opacity: 0.8;
+    animation: float-slow 15s ease-in-out infinite alternate;
+    pointer-events: none; /* Ensure blobs don't interfere with interactions */
+}
+
+.blob-results-2 {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    bottom: -200px;
+    left: -150px;
+    z-index: 0;
+    opacity: 0.7;
+    animation: float-slow 18s ease-in-out infinite alternate-reverse;
+    pointer-events: none; /* Ensure blobs don't interfere with interactions */
+}
+
+.results-container {
+    position: relative;
+    z-index: 1;
+}
+
+.results-header {
+    max-width: 800px;
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+
+.results-header p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Metrics circle display */
+.results-showcase {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.results-metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.metric-circle {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.metric-circle.active .metric-outer-ring,
+.metric-circle:hover .metric-outer-ring {
+    transform: scale(1.05);
+    box-shadow: 0 20px 45px -10px rgba(247, 37, 133, 0.5);
+}
+
+.metric-circle.active .metric-value,
+.metric-circle:hover .metric-value {
+    background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.metric-outer-ring {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 3s ease-in-out infinite;
+    box-shadow: 0 15px 35px -15px rgba(247, 37, 133, 0.4);
+}
+
+.metric-inner {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 4px 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+.metric-value {
+    font-size: 2.8rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    font-family: var(--font-primary);
+}
+
+.metric-symbol {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.metric-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: var(--dark);
+    opacity: 0.8;
+}
+
+/* Case Studies */
+.case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.case-study-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid var(--gray-light);
+    height: 100%;
+}
+
+.case-study-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.2);
+    border-color: rgba(67, 97, 238, 0.3);
+}
+
+.case-study-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.case-study-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--dark);
+}
+
+.case-study-problem {
+    margin-bottom: 1.5rem;
+    color: var(--gray);
+}
+
+.case-study-impact {
+    margin-bottom: 1.5rem;
+    margin-top: auto;
+}
+
+.case-study-impact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.case-study-impact li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.case-study-impact li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--success);
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    background: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: auto;
+}
+
+.btn-outline-primary:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.btn-outline-primary i {
+    transition: transform 0.3s ease;
+}
+
+.btn-outline-primary:hover i {
+    transform: translateX(4px);
+}
+
+@media (max-width: 992px) {
+    .case-studies-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .case-studies-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .results-metrics {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .metric-circle {
+        margin: 10px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .metric-value {
+        font-size: 2.4rem;
+    }
+    
+    .metric-symbol {
+        font-size: 1.5rem;
+    }
+    
+    .stat-label, .metric-label {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .metric-circle {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .metric-value {
+        font-size: 2rem;
+    }
+    
+    .metric-symbol {
+        font-size: 1.2rem;
+    }
+}

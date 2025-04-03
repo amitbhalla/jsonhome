@@ -1,0 +1,43 @@
+{
+    "sectionTag": "The Solution",
+    "title": "Data-Driven Marketing That <span class=\"text-gradient\">Delivers Results</span>",
+    "description": "With nearly 20 years of experience at BCG, McKinsey, and leading B2B companies, I bring a unique approach that combines strategic thinking with tactical execution. My methodology is built around three pillars:",
+    "stats": [
+      {
+        "value": "35%",
+        "label": "Average Brand Recall Increase"
+      },
+      {
+        "value": "30%",
+        "label": "Pipeline Velocity Growth"
+      },
+      {
+        "value": "50%",
+        "label": "CAC Reduction"
+      },
+      {
+        "value": "20%",
+        "label": "Employee Retention Improvement"
+      }
+    ],
+    "pillars": [
+      {
+        "number": "01",
+        "icon": "fas fa-bullseye",
+        "title": "Strategic Targeting",
+        "description": "Identifying your ideal customer profile and building precision-targeted campaigns that reach decision-makers at the right time."
+      },
+      {
+        "number": "02",
+        "icon": "fas fa-comments",
+        "title": "Messaging Optimization",
+        "description": "Crafting resonant value propositions and messaging frameworks that cut through noise and connect with your audience's pain points."
+      },
+      {
+        "number": "03",
+        "icon": "fas fa-chart-pie",
+        "title": "Performance Analytics",
+        "description": "Implementing advanced analytics and attribution models to continuously improve ROI and optimize channel performance."
+      }
+    ]
+  }

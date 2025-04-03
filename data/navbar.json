@@ -5,6 +5,18 @@
     },
     "menuItems": [
       {
+        "text": "Home",
+        "href": "#hero-container"
+      },
+      {
+        "text": "OPPORTUNITY",
+        "href": "#pains-gains-container"
+      },
+      {
+        "text": "SOLUTIONS",
+        "href": "#solutions-container"
+      },
+      {
         "text": "SERVICES",
         "href": "#services-container"
       },

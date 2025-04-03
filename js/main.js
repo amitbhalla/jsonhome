@@ -25,26 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Global event listeners and functionality
     
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            
-            // Close mobile menu if open
-            const navLinks = document.querySelector('.nav-links');
-            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-            
-            if (navLinks && navLinks.classList.contains('active')) {
-                navLinks.classList.remove('active');
-                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
-            }
-
-            // Scroll to the target
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
+    // Wait for all components to load before setting up smooth scrolling
+    setTimeout(() => {
+        setupSmoothScrolling();
+    }, 500);
 
     // Header scroll effect
     window.addEventListener('scroll', () => {
@@ -62,3 +46,41 @@ document.addEventListener('DOMContentLoaded', () => {
         footerCopyright.innerHTML = footerCopyright.innerHTML.replace(/\d{4}/, new Date().getFullYear());
     }
 });
+
+// Function to set up smooth scrolling for all anchor links
+function setupSmoothScrolling() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            // Get the target element
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            // Only proceed if target element exists
+            if (!targetElement) return;
+            
+            // Close mobile menu if open
+            const navLinks = document.querySelector('.nav-links');
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (navLinks && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+
+            // Get the header height for offset (if header is fixed)
+            const headerHeight = document.querySelector('header').offsetHeight;
+            
+            // Calculate the final scroll position with offset
+            const elementPosition = targetElement.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+
+            // Smooth scroll to the target
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
+}
